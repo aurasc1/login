@@ -1,0 +1,96 @@
+/* css/main.css */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 16px;
+}
+
+div {
+    width: 100%;
+    margin: 0px auto;
+}
+
+/* ==================================================================
+    Estilos para el encabezado
+================================================================== */
+header {
+    font-family: Helvetica;
+    font-size: 24px;
+    top: 0px;
+    width: 96%;
+    padding: 1% 2%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    -ms-box-shadow: 0px 2px 3px #222;
+    -moz-box-shadow: 0px 2px 3px #222;
+    -webkit-box-shadow: 0px 2px 3px #222;
+    -o-box-shadow: 0px 2px 3px #222;
+    box-shadow: 0px 2px 3px #222;
+    position: fixed;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #00f;
+}
+
+header nav a.activo {
+    color: #f90;
+}
+
+header aside {
+    float: left;
+}
+
+header aside span.naranja {
+    color: #fa0;
+}
+
+
+header nav {
+    float: right;
+
+}
+
+
+/* ==================================================================
+    Estilos para el contenido principal
+================================================================== */
+section {
+    background-color: rgba(255,255,255,0.75);
+    margin-top: 45%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+section div#mensaje {
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 40px;
+    padding: 25px;
+    width: 58%;
+    margin: 20px auto;
+}
+
+
+
+/* ==================================================================
+    Estilos para el pié
+================================================================== */
+footer {
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 1px;
+    color: #fff;
+
+}
