@@ -1,0 +1,94 @@
+/*css/main-incorrecto.css*/
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Arial;
+    color: #000;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#contenido{
+    
+        width: 30%; /* 960px, 1366px */
+    min-width: 10%; 
+    max-widtt: 30%;
+        margin: 0px auto; /*centrar*/
+    
+}
+
+
+    #mensaje {
+        border: 3px solid #fcb316;
+        -webkit-border-radius: 7px;
+        -o-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px;
+        
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 5px 5px 12px #e3e2e2;	
+    
+        
+    }
+
+    header {
+        padding: 15px 2%; /* 15px/960 = 0.015 => 1.5% redondeando a 2% */
+        background-color: #fcb316;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        color: #fff;
+        -webkit-border-radius: 12px;
+        -o-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        border-radius: 12px;
+        
+          -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 3px 3px 12px #e3e2e2;	
+            /* 5px desplaza horizontal derecha y negativos izquierda segundo valor xpx desplaza vertical abajo tercer valor 10px difuminado de sombra */
+        
+        }
+
+    article {
+        padding: 15px;
+        margin-bottom: 15px;
+        background-color: #ffffff;
+        }
+
+
+    #boton{
+        padding: 12px;
+        background-color: #45cba1;
+        margin-top: 0px auto;
+        color: #fff;
+        -webkit-border-radius: 12px;
+        -o-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        border-radius: 12px;
+        
+           -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 3px 3px 12px #e3e2e2;	
+    
+}
+
+footer {
+    padding: 50px;
+    margin-top: 90%;
+    background-color: #fff;
+    margin-bottom: 10px;
+    color: #a7a7a7;
+}
+
